@@ -10,7 +10,7 @@ plt.rcParams.update({'font.size': 22})
 from airflow.decorators import dag, task
 from airflow.utils.dates import days_ago
 
-BOT_TOKEN = '5892789921:AAGHn5cInwBv7V0QkfSZgN2fotTYzId5QSA'
+BOT_TOKEN = '<TOKEN>'
 chat_id = -817095409
 
 bot = telegram.Bot(BOT_TOKEN)

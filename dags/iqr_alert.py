@@ -13,7 +13,7 @@ from airflow.operators.python_operator import PythonOperator
 from airflow import DAG
 from airflow.utils.dates import days_ago
 
-BOT_TOKEN = '5892789921:AAGHn5cInwBv7V0QkfSZgN2fotTYzId5QSA'
+BOT_TOKEN = '<TOKEN>'
 chat_id = -744381656
 
 bot = telegram.Bot(BOT_TOKEN)
